@@ -1,7 +1,5 @@
 import Expense from "./components/Expenses/Expense";
-function App() {
-  
-
+const App=()=> {
   return (
     <Expense></Expense>
   );

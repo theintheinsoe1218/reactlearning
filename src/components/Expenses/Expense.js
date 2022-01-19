@@ -1,6 +1,6 @@
 import ExpenseItem from "./ExpenseItem";
 import './Expense.css';
-function Expense(){
+const Expense=()=>{
     const expenses = [
  {
  id: "e1",
