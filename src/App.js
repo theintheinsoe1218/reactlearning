@@ -1,7 +1,12 @@
+import React from "react";
 import Expense from "./components/Expenses/Expense";
+import NewExpense from "./components/NewExpenses/NewExpense";
 const App=()=> {
   return (
-    <Expense></Expense>
+    <div>
+      <NewExpense></NewExpense>
+      <Expense></Expense>
+    </div>
   );
 }
 
